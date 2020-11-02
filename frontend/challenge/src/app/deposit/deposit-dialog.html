@@ -1,0 +1,18 @@
+<div class="centered">
+    <h1 mat-dialog-title>Depositar</h1>
+    <div mat-dialog-content>
+        <mat-dialog-content>
+            <mat-form-field class="centered">
+                <input matInput placeholder="Conta corrente" [(ngModel)]="data.accountNumber">
+            </mat-form-field>
+            <br>
+            <mat-form-field class="centered">
+                <input matInput type="number" placeholder="Quantia" [(ngModel)]="data.amount">
+            </mat-form-field>
+        </mat-dialog-content>
+    </div>
+    <div mat-dialog-actions class="centered">
+      <button mat-button (click)="onNoClick()">Voltar</button>
+      <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Depositar</button>
+    </div>
+</div>

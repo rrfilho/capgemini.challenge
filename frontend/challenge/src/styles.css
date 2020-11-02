@@ -1,0 +1,7 @@
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+body{max-width: 70%; margin: 0 auto;}
+.title{font-size: 30px; font-weight: 600;}
+.centered{ width: 100%; text-align: center;}
+.help{background-color: khaki;}
+.help li{margin: 10px 0px;}
